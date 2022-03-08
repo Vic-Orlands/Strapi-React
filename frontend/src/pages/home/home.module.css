@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	background-color: rgba(223, 223, 223, 0.987);
+}
+
+.home {
+	margin: 30px 25%;
+}
+
+.home section > h2 {
+	margin-bottom: 0;
+}
+
+.horizontal-rule {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+
+.home-article {
+	border: 1px solid black;
+	background-color: rgba(216, 112, 147, 0.152);
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 0 20px;
+}
+
+.home-article h2 {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.home-article-description {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.home-article-description img {
+	border: 2px solid black;
+	box-shadow: 1px 2px 2px rgb(41, 40, 40);
+	margin-right: 30px;
+}
+
+.home-form {
+	margin: 30px 0;
+	padding: 20px;
+	border: 1px solid rgb(51, 49, 49);
+}
+
+.home-form h5 {
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: underline;
+	margin: 0;
+}
+
+.home-form h6 {
+	font-size: 14px;
+	text-align: center;
+	margin-top: 0;
+}
+
+.home-form label {
+	font-size: 14px;
+}
+
+.home-form input {
+	display: block;
+	width: 100%;
+	height: 30px;
+	margin-bottom: 10px;
+	background-color: rgba(223, 223, 223, 0.493);
+}
+
+.home-form button {
+	text-transform: uppercase;
+	background-color: palevioletred;
+	color: #000000;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 15px;
+	cursor: pointer;
+	border: none;
+}
+
+.home-form button:hover {
+	background-color: rgb(199, 84, 122);
+}
